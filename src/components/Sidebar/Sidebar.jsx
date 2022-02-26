@@ -2,6 +2,7 @@ import React from 'react'
 import "./Sidebar.css"
 import ExpandMoreIcon from '../ExpandMoreIcon/ExpandMoreIcon'
 import AddIcon from '../AddIcon/AddIcon'
+import SidebarChannel from '../SidebarChannel/SidebarChannel'
 
 
 function Sidebar() {
@@ -23,6 +24,14 @@ function Sidebar() {
           </div> 
             <AddIcon />
         </div>
+
+        <div className="sidebar_channelsList">
+          <SidebarChannel />
+          <SidebarChannel />
+          <SidebarChannel />
+          <SidebarChannel />
+        </div>
+
       </div>
 
     </div>
